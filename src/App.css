@@ -1,38 +1,79 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
+  /* The image used */
+  background-image: url(./Images/Background.jpg);
+ 
+  /* Full height */
+ height: 100%;
+ 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+ text-align: center;
+ 
+ 
+ }
+ 
+ 
+ .App-logo {
+ height: 40vmin;
+ pointer-events: none;
+ }
+ 
+ .foo{
+ background-color: rgb(37, 36, 36);
+ height:max-content;
+ color: white;
+ padding: 30px;
+ text-align: center;
+ 
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ }
+ .Carousel.Item{
+   height: 300px;
+ }
+ 
+ .Item img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   min-height: 300px;
+ }
+ 
+ 
+ @media (prefers-reduced-motion: no-preference) {
+ .App-logo {
+   animation: App-logo-spin infinite 20s linear;
+ }
+ }
+ 
+ .App-header {
+ background-color: #282c34;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ font-size: calc(10px + 2vmin);
+ color: white;
+ }
+ 
+ .App-link {
+ color: #f8cf5f;
+ }
+ 
+ 
+ 
+ @keyframes App-logo-spin {
+ from {
+   transform: rotate(0deg);
+ }
+ to {
+   transform: rotate(360deg);
+ }
+ }
+ 

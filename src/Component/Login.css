@@ -1,0 +1,32 @@
+.row {
+
+    position: 'absolute';
+    left: '50%';
+    top: '50%';
+    transform: 'translate(-50%, -50%)'
+}
+.row .form-group{
+
+  
+  text-align : center;
+  align:center;
+  justify-content: center;
+  text-decoration-color: darkslateblue;
+    
+}
+
+.row .card {
+    text-align: center;
+    text-decoration-color:pink;
+    text-shadow: khaki;
+    justify-content: center;
+    display: inline-block;
+    background-color: lavender;
+}
+
+.row .card-body{
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    
+}
